@@ -1,0 +1,7 @@
+final_status,baseline,enhanced,absolute_change
+departed,212,216,4
+parked,0,0,0
+double_parked,0,0,0
+failed,4,0,-4
+arrived,0,0,0
+not_arrived,0,0,0

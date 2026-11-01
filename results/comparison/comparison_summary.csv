@@ -1,0 +1,7 @@
+metric,baseline,enhanced,absolute_change,percent_change_%
+total_vehicles,216.0,216.0,0.0,0.0
+parked_vehicles,197.0,216.0,19.0,9.644670050761421
+double_parked_vehicles,15.0,0.0,-15.0,-100.0
+failed_vehicles,4.0,0.0,-4.0,-100.0
+departed_vehicles,212.0,216.0,4.0,1.8867924528301887
+avg_waited_time_minutes,0.731,0.0,-0.731,-100.0

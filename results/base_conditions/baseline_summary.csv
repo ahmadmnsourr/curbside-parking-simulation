@@ -1,0 +1,2 @@
+total_vehicles,parked_vehicles,double_parked_vehicles,failed_vehicles,departed_vehicles,avg_waited_time_minutes
+216,197,15,4,212,0.731
