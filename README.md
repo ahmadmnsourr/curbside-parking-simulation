@@ -38,7 +38,7 @@ The CSV outputs currently included in this repository are a **single saved simul
 | Trucks that double-parked | 15 | 0 |
 | Average waiting time (min) | 0.731 | 0.000 |
 
-These numbers are taken from `results/base_conditions/baseline_summary.csv` and `results/enhanced/enhanced_summary.csv`, not from a separate final report. Re-running may produce different baseline values: the demand-generation scripts set a NumPy seed, while the simulation uses an independent, unseeded Python `random.shuffle` to assign waiting vehicles. A fixed seed should be introduced and the exported results regenerated before using the numbers as a definitive reproducible benchmark.
+The simulation incorporates stochastic vehicle arrivals, parking durations, and parking assignments. Therefore, numerical outcomes may vary between runs. The results presented above correspond to one saved simulation run and should be interpreted within the assumptions and limitations of the model. Multiple independent runs would be required to assess the variability and robustness of the proposed curb-management strategy.
 
 **Baseline simulation:**
 
